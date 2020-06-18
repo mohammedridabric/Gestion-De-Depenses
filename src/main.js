@@ -1,6 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+// inport the styles
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
+import '@fortawesome/fontawesome-free/css/all.css';
+import '@fortawesome/fontawesome-free/js/all';
+
 Vue.config.productionTip = false
 
 new Vue({
